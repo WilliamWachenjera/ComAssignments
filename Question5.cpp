@@ -54,7 +54,7 @@ int main() {
             quick_exit(0);
         }
         default:
-            cout << "Your input was: "<< choice <<" which is invalid input" << endl;
+            cout << "Your input was: "<< number <<" which is invalid input" << endl;
     }while(number >=5){
         cout << "Please enter a valid input!!!" <<endl;
         cin >> number;
